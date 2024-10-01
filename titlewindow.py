@@ -6,7 +6,7 @@ import sys
 
 def main():
     pygame.init()                                   # Pygameの初期化
-    screen = pygame.display.set_mode((400, 300))    # 大きさ400*300の画面を生成
+    screen = pygame.display.set_mode((480, 360))    # 大きさ480*360の画面を生成
     pygame.display.set_caption("片隅アイロニー")              # タイトルバーに表示する文字
 
     while (1):
